@@ -1,16 +1,60 @@
-# React + Vite
+# Nexus - B2B SaaS Home Services Platform 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Nexus** is a comprehensive multi-tenant SaaS platform designed to streamline home service management. It enables companies to manage bookings, workers, and services efficiently through a unified dashboard.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack
+- **Frontend:** React.js, Vite, Tailwind CSS (v4)
+- **UI Components:** shadcn/ui, Lucide Icons
+- **Backend/Database:** Supabase (PostgreSQL, Auth, Storage)
+- **State Management:** Custom Hooks (useApi)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features (In Progress)
+- [x] **Dynamic Landing Page:** Professional UI with responsive design.
+- [x] **Subscription Plans:** Dynamic pricing cards fetched from Supabase.
+- [x] **Service Discovery:** Displaying company-specific services.
+- [x] **Smart Booking System:** Real-time availability check for workers.
+- [x] **Multi-tenant Dashboard:** Separate views for Admins, Workers, and Clients.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+
+### Prerequisites
+- Node.js installed
+- Supabase account and project
+  
+### Installation
+### 1. Clone the repository:
+   ```bash
+   git clone [https://github.com/YOUR_USERNAME/nexus-saas-platform.git](https://github.com/YOUR_USERNAME/nexus-saas-platform.git)
+   ```
+### 2. Install dependencies:
+```bash
+npm install
+```
+
+### 3. Set up environment variables:
+Create a `.env` file in the root directory and add:
+
+`VITE_SUPABASE_URL=your_supabase_url`
+`VITE_SUPABASE_ANON_KEY=your_supabase_anon_key`
+
+### 4. Run the development server:
+
+```Bash
+npm run dev
+```
+
+### Project Structure
+- src/components: Reusable UI components.
+- src/hooks: Custom React hooks (like useApi).
+- src/lib: Configuration files (Supabase client).
+- src/pages: Main application pages (Landing, Features, etc.).
+
+### Author
+Rawda Mohamed Sengab Computer Science Student at Alexandria University
+
