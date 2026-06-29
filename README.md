@@ -1,60 +1,120 @@
-# Nexus - B2B SaaS Home Services Platform 
+# 🚀 Nexus - B2B SaaS Home Services Platform
 
-**Nexus** is a comprehensive multi-tenant SaaS platform designed to streamline home service management. It enables companies to manage bookings, workers, and services efficiently through a unified dashboard.
+> 🚧 **Status:** Under Active Development
+
+**Nexus** is a modern multi-tenant SaaS platform for home service companies. It aims to simplify service management by providing an intuitive interface for booking, worker management, customer management, and company operations.
+
+The project is currently under active development, and new features are being added continuously.
 
 ---
 
 ## 🛠️ Tech Stack
-- **Frontend:** React.js, Vite, Tailwind CSS (v4)
-- **UI Components:** shadcn/ui, Lucide Icons
-- **Backend/Database:** Supabase (PostgreSQL, Auth, Storage)
-- **State Management:** Custom Hooks (useApi)
+
+- **Frontend:** React.js, Vite, Tailwind CSS v4
+- **UI Components:** shadcn/ui, Lucide React
+- **Backend & Database:** Supabase (PostgreSQL, Auth, Storage)
+- **State Management:** Custom Hooks
+- **Version Control:** Git & GitHub
 
 ---
 
-## ✨ Features (In Progress)
-- [x] **Dynamic Landing Page:** Professional UI with responsive design.
-- [x] **Subscription Plans:** Dynamic pricing cards fetched from Supabase.
-- [x] **Service Discovery:** Displaying company-specific services.
-- [x] **Smart Booking System:** Real-time availability check for workers.
-- [x] **Multi-tenant Dashboard:** Separate views for Admins, Workers, and Clients.
+## ✨ Current Progress
+
+Currently implemented:
+
+- ✅ Project setup using Vite
+- ✅ Responsive Landing Page
+- ✅ Modern UI with Tailwind CSS
+- ✅ Reusable Components
+- ✅ Project Architecture
+- ✅ Responsive Navigation
 
 ---
 
-## Getting Started
+## 🚧 Planned Features
 
-### Prerequisites
-- Node.js installed
-- Supabase account and project
-  
-### Installation
-### 1. Clone the repository:
-   ```bash
-   git clone [https://github.com/YOUR_USERNAME/nexus-saas-platform.git](https://github.com/YOUR_USERNAME/nexus-saas-platform.git)
-   ```
-### 2. Install dependencies:
+The following features are currently in development:
+
+- Smart Booking System
+- Subscription Plans
+- Company Dashboard
+- Admin Dashboard
+- Worker Dashboard
+- Client Dashboard
+- Authentication & Authorization
+- Service Management
+- Company Management
+- Customer Management
+- Real-time Notifications
+- Payment Integration
+- Analytics Dashboard
+- Reviews & Ratings
+- Email Notifications
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+├── assets/
+├── components/
+├── hooks/
+├── lib/
+├── pages/
+├── services/
+└── App.jsx
+```
+
+---
+
+## 🚀 Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/nexus-saas-platform.git
+```
+
+### Navigate to the project
+
+```bash
+cd nexus-saas-platform
+```
+
+### Install dependencies
+
 ```bash
 npm install
 ```
 
-### 3. Set up environment variables:
-Create a `.env` file in the root directory and add:
+### Create Environment Variables
 
-`VITE_SUPABASE_URL=your_supabase_url`
-`VITE_SUPABASE_ANON_KEY=your_supabase_anon_key`
+Create a `.env` file and add:
 
-### 4. Run the development server:
+```env
+VITE_SUPABASE_URL=your_supabase_url
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+```
 
-```Bash
+### Run the project
+
+```bash
 npm run dev
 ```
 
-### Project Structure
-- src/components: Reusable UI components.
-- src/hooks: Custom React hooks (like useApi).
-- src/lib: Configuration files (Supabase client).
-- src/pages: Main application pages (Landing, Features, etc.).
+---
 
-### Author
-Rawda Mohamed Sengab Computer Science Student at Alexandria University
+## 📌 Project Status
 
+This project is currently **Work in Progress (WIP)**.
+
+New features, UI improvements, and backend functionality are being implemented continuously. The repository is updated regularly as development progresses.
+
+---
+
+## 👩‍💻 Author
+
+**Rawda Mohamed**
+
+Frontend Developer 
