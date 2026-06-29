@@ -73,7 +73,7 @@ src/
 ### Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/nexus-saas-platform.git
+git clone https://github.com/rawdamohamed2/nexus-saas-platform
 ```
 
 ### Navigate to the project
